@@ -12,8 +12,6 @@ function caseInsensitivePalindrome(str) {
   }
 }
 
-caseInsensitivePalindrome("aaabbb");
-
 /**
  * Test Suite
  */
