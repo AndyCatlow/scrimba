@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background-image: linear-gradient(yellow, red);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.new__activity__button {
+  height: 5em;
+  width: 5em;
+  border-radius: 300px;
+  background-color: red;
+}
