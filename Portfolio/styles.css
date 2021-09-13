@@ -51,12 +51,22 @@ h3 {
   font-weight: 300;
 }
 
+a {
+  background-color: var(--clr-green-mid);
+  text-decoration: none;
+  color: var(--clr-blk-2);
+  padding: 0.2em 1em;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
 }
 
-.intro h3 {
+h3 {
   background-color: var(--clr-green-mid);
   padding: 0.2em 1em;
   text-transform: uppercase;
@@ -77,6 +87,7 @@ header {
 section p {
   max-width: 30ch;
   margin: 1em auto;
+  opacity: 0.8;
 }
 
 .whatdo {
