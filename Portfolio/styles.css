@@ -1,3 +1,15 @@
+:root {
+  --clr-white: #ffffff;
+  --clr-green-light: #16e08d;
+  --clr-green-mid: #14cfae;
+  --clr-green-dark: #1c4b43;
+  --clr-blk-1: #000000;
+  --clr-blk-2: #141414;
+  --clr-blk-3: #2e2e2e;
+  --clr-blk-4: #333333;
+  --clr-blk-5: #303030;
+}
+
 *,
 *::after,
 *::before {
@@ -8,4 +20,45 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h1,
+h3 {
+  font-weight: 300;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro h3 {
+  background-color: #16e08d;
+  /* max-width: max-content; */
+
+  padding: 0.2em 1em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
