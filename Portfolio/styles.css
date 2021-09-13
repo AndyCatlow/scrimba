@@ -24,7 +24,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(200px, 400px);
   padding: 2rem;
   font-size: 1.125rem;
   font-weight: 300;
@@ -33,6 +33,7 @@ body {
 img {
   max-width: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 h1,
