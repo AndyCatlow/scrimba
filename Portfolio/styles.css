@@ -34,22 +34,20 @@
   }
 }
 
+/* General styles */
+
 body {
-  font-family: "Source Sans Pro", sans-serif;
-  text-align: center;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: minmax(200px, 400px);
-  padding: 2rem;
-  font-size: 1.125rem;
-  font-weight: 300;
+  background: var(--clr-light);
+  color: var(--clr-dark);
+  margin: 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
+  line-height: 1.6;
 }
 
 img {
-  max-width: 100%;
   display: block;
-  margin: 0 auto;
+  max-width: 100%;
 }
 
 h1,
