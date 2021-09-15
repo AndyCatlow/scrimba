@@ -50,67 +50,44 @@ img {
   max-width: 100%;
 }
 
+/* Typography */
+
 h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--fs-h1);
+}
 h2 {
-  font-size: 3rem;
+  font-size: var(--fs-h2);
 }
-
 h3 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5em;
+  font-size: var(--fs-h3);
 }
 
-h1,
-h3 {
-  font-weight: 300;
+.section__title {
+  margin-bottom: 0.25em;
 }
 
-a {
-  background-color: var(--clr-green-mid);
-  text-decoration: none;
-  color: var(--clr-blk-2);
-  padding: 0.2em 1em;
-  font-weight: 500;
-  border: none;
-  border-radius: 5px;
+.section__title--intro {
+  font-weight: var(--fw-reg);
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
+.section__title--intro strong {
+  display: block;
 }
 
-h3 {
-  background-color: var(--clr-green-mid);
-  padding: 0.2em 1em;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+.section__subtitle {
+  margin: 0;
+  font-size: var(--fs-h3);
 }
 
-.intro .img-container {
-  height: 300px;
-  width: 300px;
-  overflow: hidden;
-  margin: 0 auto 3rem auto;
-  box-shadow: 0 0 15px -2px var(--clr-blk-5);
-  background-image: url("images/Mobile/eduardo-dutra-k6b53YWZI9I-unsplash.png");
-  background-position: top;
-  background-size: cover;
-}
-
-section p {
-  max-width: 30ch;
-  margin: 1em auto;
-  opacity: 0.8;
-}
-
-.whatdo {
-  background-color: var(--clr-blk-3);
-  color: var(--clr-white);
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.whatdo h2 {
-  margin: 1em auto;
+.section__subtitle--intro,
+.section__subtitle--about {
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
 }
