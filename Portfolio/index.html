@@ -21,12 +21,16 @@
       </button>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
           <li class="nav__item">
-            <a href="" class="nav__link">My Services</a>
+            <a href="#services" class="nav__link">My Services</a>
           </li>
-          <li class="nav__item"><a href="" class="nav__link">About Me</a></li>
-          <li class="nav__item"><a href="" class="nav__link">My Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -43,7 +47,7 @@
         />
         <!-- </div> -->
       </section>
-      <section class="whatdo">
+      <section class="my-services" id="services">
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="service">
           <h3>Design + Development</h3>
@@ -70,43 +74,118 @@
             odit cum. Voluptatum non aut dignissimos laudantium impedit.
           </p>
         </div>
-        <a href="#" target="_blank">see my work</a>
+        <a href="#work" target="_blank">see my work</a>
       </section>
-      <section class="about">
-        <h2>Who I am</h2>
-        <h3>Designer & developer based in NYC</h3>
+      <section class="about" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Designer & developer based in NYC
+        </p>
+
+        <div class="about-me__body">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
+            voluptatum similique debitis velit beatae nemo ut. Assumenda,
+            voluptate ipsa quas exercitationem dicta neque at consequuntur? Ea
+            odio praesentium voluptatum delectus.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quisquam voluptates laudantium enim a voluptatem
+            veniam illum quidem amet fugiat.
+          </p>
+        </div>
         <img
           src="images/mobile/eduardo-dutra-Kqjc3vvgl1k-unsplash.png"
           alt=""
         />
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-          voluptatum similique debitis velit beatae nemo ut. Assumenda,
-          voluptate ipsa quas exercitationem dicta neque at consequuntur? Ea
-          odio praesentium voluptatum delectus.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Exercitationem quisquam voluptates laudantium enim a voluptatem veniam
-          illum quidem amet fugiat.
-        </p>
       </section>
-      <section class="work">
-        <h2>My work</h2>
-        <h3>A selection of my range of work</h3>
-        <img src="images/mobile/Rectangle 3-1.png" alt="" />
-        <img src="images/mobile/Rectangle 3-2.png" alt="" />
-        <img src="images/mobile/Rectangle 3-3.png" alt="" />
-        <img src="images/mobile/Rectangle 3-4.png" alt="" />
-        <img src="images/mobile/Rectangle 3-5.png" alt="" />
-        <img src="images/mobile/Rectangle 3-6.png" alt="" />
-        <img src="images/mobile/Rectangle 3-7.png" alt="" />
-        <img src="images/mobile/Rectangle 3-8.png" alt="" />
-        <img src="images/mobile/Rectangle 3-9.png" alt="" /><img
-          src="images/mobile/Rectangle 3-10.png"
-          alt=""
-        />
+
+      <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">
+          A selection of my range of work
+        </p>
+
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-1.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-2.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-3.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-4.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-5.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-6.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-7.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-8.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-9.png"
+            alt=""
+        /></a>
+        <a href="#" class="portfolio__item"
+          ><img
+            class="portfolio__img"
+            src="images/mobile/Rectangle 3-10.png"
+            alt=""
+        /></a>
       </section>
     </main>
+    <footer>
+      <!-- replace with your own email address -->
+      <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://codepen.io">a</a>
+        </li>
+        <li class="social-list__item">
+          b<a class="social-list__link" href="http://dribbble.com"></a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">c</a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com">d</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
