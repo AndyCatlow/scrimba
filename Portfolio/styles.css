@@ -1,8 +1,6 @@
 *,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -260,5 +258,11 @@ nav {
     width: calc(100% + 2em);
     padding-left: 1em;
     padding-right: calc(200px + 4em);
+  }
+
+  .about-me__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
   }
 }
